@@ -27,7 +27,6 @@ const createPayment = async (productId, productName, price) => {
             }
         );
 
-        console.dir(response, {statusbar: null})
         return response.data;
     } catch (error) {
         console.log(error)
